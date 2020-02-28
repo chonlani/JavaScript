@@ -102,3 +102,64 @@ let array1 = [
   })
 
 console.log(array2);
+
+//ข้อ 12
+ let array1 = [
+    { name: "apple", birth: "2001-01-01" },
+    { name: "banana", birth: "1990-10-10" },
+    { name: "watermelon", birth: "1985-12-30" },
+    { name: "peach", birth: "2002-10-13" },
+  ]
+
+  let array2 = array1.filter(function(item){
+      let array = item.birth.split("-")
+      return array[0] < 2000
+  })
+
+  console.log(array2); //0: {name: "banana", birth: "1990-10-10"} ,  1: {name: "watermelon", birth: "1985-12-30"
+
+
+  //6.10.  แบบฝึกหัด
+  function unique(arr) {
+     let valueset = new set(arr);
+     let result = [];
+     for (let element of valueset){
+         rusult.push(element)
+     }
+     return result;
+  }
+  
+  let values = ["Hare", "Krishna", "Hare", "Krishna", "Krishna", "Krishna", "Hare", "Hare", ":-O" ];
+  
+  alert( unique(values) );
+
+  //7.2.  แบบฝึกหัด
+
+  let salaries = {
+    "John": 100,
+    "Pete": 300,
+    "Mary": 250
+  };
+
+  function sumSalaries(salaries){
+    let sum = 0;
+    for (let salary of Object.values(salaries)) {
+      sum += salary;
+    }
+  
+    return sum; // 650
+  }
+  
+alert( sumSalaries(salaries) );
+    
+//ข้อ 2
+let user = {
+    name: 'John',
+    age: 30
+  };
+
+  function count(obj) {
+    return Object.keys(obj).length;
+  }
+
+  alert( count(user) ); // 2

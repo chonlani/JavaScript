@@ -107,3 +107,16 @@ let team={
     B: 200
 };
 console.log(multiplynumberic(team,5)); //5 คือเลขที่นำไปคูณกับvalue
+
+
+//Exp : Methods
+let obj1 = {
+    sayHi(){
+        alert("hello")
+    },
+    saygoodbye(){
+        alert("bye")
+    }
+}    
+console.log(obj1);
+

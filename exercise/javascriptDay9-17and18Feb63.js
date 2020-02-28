@@ -136,3 +136,30 @@ let x = 2;
 (x > 0) && alert ("graeter than zero");
 
 
+
+
+/*1. ""+1+0 = 10
+2. ""-1+0 = -1  
+3. true+false = 1
+4. 6/"3" = 2
+5. "2"*"3" = 6
+6. 4+5+"px" = 9px
+7. "$"+4+5 = $45
+8. "4"-2 = 2
+9. "4px"-2 = nan
+10. 7/0 = infinity
+11. " -9 "+5 = -4
+12. " -9 "-5 = 4
+13. null+1 = 0
+14. undefined+1 = nan
+15. "/t/n"-2 = -2
+
+
+5>4 = true 
+"apple">"pineapple" = false 
+"2">"12" = true 
+undefined==null = true 
+undefined===null = false 
+"bee"<"be" = false
+"bee">"Bee" = true
+"Bee"<"be" = true */

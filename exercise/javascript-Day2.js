@@ -80,7 +80,7 @@ while (!( number1 <= 100 ) && number1 >= 1){
      if (number2 > number1){
          number2 = prompt("ใส่น้อยกว่านี้")
         }
-        else (number2 < number1) {
+        else  {
             number2 = prompt("ใส่มากกว่านี้")
     }
 }
